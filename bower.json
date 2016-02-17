@@ -1,0 +1,18 @@
+{
+  "name": "slideshow-test",
+  "authors": [
+    "Filip Stankovic <filips@gmail.com>"
+  ],
+  "description": "Rails assets testing.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

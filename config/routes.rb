@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
+  get 'static_pages/1080p'
+
+  get 'static_pages/720p'
+
+  get 'static_pages/480p'
+
   resources :posts
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
