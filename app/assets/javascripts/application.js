@@ -13,6 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require cycle
+//= require jquery-cycle2
 //= require jquery.imagefit
 //= require_tree .

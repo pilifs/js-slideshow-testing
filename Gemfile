@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use rails-assets to help manage front-end asset pipeline with Bower
 source 'https://rails-assets.org' do
-  gem 'rails-assets-cycle'
+  gem 'rails-assets-jquery-cycle2'
 end
 
 # Use ActiveModel has_secure_password
