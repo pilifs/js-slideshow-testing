@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Use rails-assets to help manage front-end asset pipeline with Bower
 source 'https://rails-assets.org' do
   gem 'rails-assets-cycle'
 end
