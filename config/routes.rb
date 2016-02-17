@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  get 'static_pages/1080p'
+  get '/1080p' => 'static_pages#hd', as: 'hd'
 
-  get 'static_pages/720p'
+  get '/720p' => 'static_pages#md', as: 'md'
 
-  get 'static_pages/480p'
+  get '/480p' => 'static_pages#ld', as: 'ld'
+
 
   resources :posts
 

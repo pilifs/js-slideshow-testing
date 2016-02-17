@@ -1,10 +1,10 @@
 class StaticPagesController < ApplicationController
-  def 1080p
+  def hd
   end
 
-  def 720p
+  def md
   end
 
-  def 480p
+  def ld
   end
 end
