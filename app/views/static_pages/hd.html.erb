@@ -20,3 +20,22 @@
   <%= image_tag("1080p/19.jpg") %>
   <%= image_tag("1080p/20.jpg") %>
 </div>
+
+<script type="text/javascript">
+  $('.cycle-slideshow').imagefit({
+      ignore: '.ignore',
+      mode: 'inside',
+      force : 'true',
+      halign : 'center',
+      valign : 'middle',
+      onStart: function (index, container, imagecontainer) {
+      /* Some code */
+      },
+      onLoad: function (index, container, imagecontainer) {
+          /* Some code */
+      },
+      onError: function (index, container, imagecontainer) {
+      /* Some code */
+      }
+  });
+</script>
